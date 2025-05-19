@@ -39,3 +39,26 @@ message = age >= age_limit ?
                     "you can drive heavy" : "you cannot drive heavy vehicles"
                 : "you cannot drive"
 console.log(message);
+
+// switch case
+
+let choice = 2
+switch (choice){
+    case 1:
+        console.log(`you selected choice ${choice}`)
+        break;
+    case 2:
+        console.log(`you selected choice ${choice}`)
+        break;
+    case 3:
+        console.log(`you selected choice ${choice}`)
+        break;
+    default:
+        console.log("please check your choice...")    
+}
+
+// for loop
+let i = 10
+for (; i <= 15; i++){
+    console.log(i)
+}
